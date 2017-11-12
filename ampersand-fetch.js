@@ -104,7 +104,7 @@ module.exports = function (method, model, options) {
       return json;
     }).catch(function(error) {
       if(options.error && _.isFunction(options.error)) {
-        options.fail(error);
+        options.error(error);
       }
       return error;
     });
