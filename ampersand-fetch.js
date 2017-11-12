@@ -106,7 +106,7 @@ module.exports = function (method, model, options) {
       if(options.error && _.isFunction(options.error)) {
         options.error(error);
       }
-      return error;
+      throw error;
     });
 
   model.trigger('request', model, promise, options, ajaxSettings);
