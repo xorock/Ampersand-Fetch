@@ -1,7 +1,7 @@
 {
   "name": "ampersand-fetch",
   "description": "Ampersand's sync implemented with Chrome's native .fetch.  Works with React Native too.",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "author": "Stephen Grider <ste.grider@gmail.com",
   "bugs": {
     "url": "https://github.com/stephengrider/ampersand-fetch/issues"
@@ -21,7 +21,7 @@
     "tape-run": "^0.3.0",
     "redtape": "1.0.0"
   },
-  "homepage": "https://github.com/stephengrider/ampersand-sync-promise",
+  "homepage": "https://github.com/xorock/Ampersand-Fetch",
   "keywords": [
     "backbone",
     "sync",
@@ -35,7 +35,7 @@
   "main": "ampersand-fetch.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stephengrider/ampersand-fetch.git"
+    "url": "https://github.com/xorock/Ampersand-Fetch.git"
   },
   "scripts": {
     "start": "run-browser test/*",
