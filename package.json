@@ -7,16 +7,16 @@
     "url": "https://github.com/stephengrider/ampersand-fetch/issues"
   },
   "dependencies": {
-    "qs": "^1.2.1",
-    "lodash": "~3.7.0"
+    "qs": "^6.1.0",
+    "lodash": "^4.11.1"
   },
   "devDependencies": {
     "tap-spec": "^0.2.0",
-    "ampersand-model": "^4.0.1",
-    "ampersand-rest-collection": "^2.0.1",
+    "ampersand-model": "^7.0.0",
+    "ampersand-rest-collection": "^5.0.0",
     "browserify": "^5.9.3",
     "jshint": "^2.5.3",
-    "precommit-hook": "^1.0.7",
+    "precommit-hook": "^3.0.0",
     "run-browser": "~1.3.0",
     "tape-run": "^0.3.0",
     "redtape": "1.0.0"
